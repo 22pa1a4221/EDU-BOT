@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1574192324001-ee41e18ed679?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&w=1000&q=80'); /* Replace with your background image URL */
+    background-size: cover; /* This property makes the background image cover the entire container */
+    background-position: center; /* This property centers the background image */
+    background-repeat: no-repeat; /* This property prevents the background image from repeating */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
+
+#courses {
+    margin-bottom: 20px;
+}
+
+#courseList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courseCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 0.5em;
+    width: 200px;
+}
+
+#enrollment {
+    text-align: center;
+}
+#searchBox {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#searchInput {
+    border: none;
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    outline: none;
+}
+
+#searchButton {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
